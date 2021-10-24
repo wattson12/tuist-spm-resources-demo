@@ -6,6 +6,7 @@ Demo showing issue with `Info.plist` in an SPM dependency being copied and proce
 
 ```
 tuist dependencies fetch
+tuist generate
 tuist build ViaTuist
 tuist build ViaSPM
 ```
